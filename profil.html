@@ -15,29 +15,28 @@
 
         <div class="info">
             <h2>Informations Personnelles</h2>
-            <p>  NOM: VDE </p>
-            <p>  E-MAIL: VDE.COM </p>
+            <p id="afficheNom">  NOM: VDE </p>
+            <p id="afficheEmail">  E-MAIL: VDE.COM </p>
         </div>
-
     </div>
 
 <br>
     <div>
             <h2>Modifier le profil</h2>
-            <form action="">
+            <form action="" id="MonFormulaire">
                 <div class="formGroupe">
                     <label > Nom</label>
-                    <input type="text"  placeholder="Votre Nom">
+                    <input type="text" id="nomTaper" placeholder="Votre Nom">
                 </div>
                 <div class="formGroupe">
                 <label > E-MAIL</label>
-                <input type="text"  placeholder="Votre Mail" > 
+                <input type="email"  id="EmailTaper" placeholder="Votre Mail" > 
                 </div>
                 <button type="submit" class="btnSave">Enregistrer</button>
             </form>
 
     </div>
   
-
+<script src="scripte.js"></script>
 </body>
 </html>
